@@ -72,13 +72,7 @@ export default class Start extends React.Component {
               <Text
                 style={[styles.colorText, styles.chatBoxText]}>Start Chatting</Text>
 
-              {/* <Button
-                  style={styles.chatButton}
-                  title="Go to Chat"
-              
-                    onPress={() => this.props.navigation.navigate('Chat', {name:this.state.name})}
-              /> */}
-             </TouchableOpacity>
+             </TouchableOpacity> 
           </View>
         </ImageBackground>
       </View>
