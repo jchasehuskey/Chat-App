@@ -5,6 +5,8 @@ import Start from './components/Start';
 import Chat from './components/Chat';
 // import react native gesture handler
 import 'react-native-gesture-handler';
+const firebase = require('firebase');
+require('firebase/firestore');
 
 // import react Navigation
 import { NavigationContainer } from '@react-navigation/native';
